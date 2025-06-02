@@ -30,6 +30,6 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: 22
           script: |
-            cd /home/mikhail/test_docker
+            cd /home/mikhail/flask_app
             docker compose pull
             docker compose up -d
